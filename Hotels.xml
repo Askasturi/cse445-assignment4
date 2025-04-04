@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
@@ -15,7 +15,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="3.8">
+  <Hotel Rating="3.9">
     <Name>Marriott</Name>
     <Phone>602-555-1234</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -39,7 +39,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.7">
+  <Hotel Rating="4.5">
     <Name>Hilton Garden Inn</Name>
     <Phone>602-100-2222</Phone>
     <Phone>602-100-3333</Phone>
