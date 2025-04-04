@@ -6,7 +6,7 @@
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address>
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
@@ -15,7 +15,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="3.8">
+  <Hotel>
     <Name>Marriott</Name>
     <Phone>602-555-1234</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -39,11 +39,10 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.7">
+  <Hotel>
     <Name>Hilton</Name>
     <Phone>602-100-2222</Phone>
-    <Phone>602-100-3333</Phone>
-    <Address NearestAirport="Mesa Gateway">
+    <Address>
       <Number>89</Number>
       <Street>Greenway</Street>
       <City>Glendale</City>
@@ -64,10 +63,10 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="3.5">
+  <Hotel>
     <Name>DoubleTree</Name>
     <Phone>623-888-2222</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address>
       <Number>33</Number>
       <Street>Broadway</Street>
       <City>Mesa</City>
@@ -88,10 +87,10 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.0">
+  <Hotel>
     <Name>Comfort Suites</Name>
     <Phone>602-765-4321</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address>
       <Number>77</Number>
       <Street>6th St</Street>
       <City>Phoenix</City>
@@ -112,7 +111,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="3.0">
+  <Hotel>
     <Name>Red Roof Inn</Name>
     <Phone>480-123-5678</Phone>
     <Address>
