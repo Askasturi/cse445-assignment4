@@ -2,7 +2,6 @@
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
- <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
@@ -27,7 +26,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="3.8">
+
     <Name>Hyatt</Name>
     <Phone>480-777-2345</Phone>
     <Address NearstAirport="Sky Harbor">
@@ -76,7 +75,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="3.8">
+
     <Name>Holiday Inn</Name>
     <Phone>480-444-1122</Phone>
     <Address NearstAirport="Sky Harbor">
@@ -112,7 +111,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.6">
+
     <Name>Sonesta Select</Name>
     <Phone>602-999-8888</Phone>
     <Phone>602-999-7777</Phone>
