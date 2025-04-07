@@ -124,4 +124,17 @@
     </Address>
   </Hotel>
 
+<Hotel Rating="4.6">
+  <Name>Sonesta Select</Name>
+  <Phone>602-999-8888</Phone>
+  <Phone>602-999-7777</Phone>
+  <Address NearstAirport="Phoenix-Mesa Gateway">
+    <Number>200</Number>
+    <Street>W Baseline Rd</Street>
+    <City>Mesa</City>
+    <State>AZ</State>
+    <Zip>85210</Zip>
+  </Address>
+</Hotel>
+        
 </Hotels>
