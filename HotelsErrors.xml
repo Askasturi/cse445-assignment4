@@ -2,55 +2,58 @@
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
-  <!-- ✅ Error 1: Root element is <Hotel> instead of <Hotels> -->
-
+  <!-- Hotel 1 – Missing <Zip> -->
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearstAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
-      <!-- ✅ Error 2: Required <Zip> element is missing -->
+      <!-- Zip is missing here -->
     </Address>
   </Hotel>
 
+  <!-- Hotel 2 – Missing <Phone> -->
+  <Hotel Rating="3.8">
+    <Name>Marriott</Name>
+    <!-- Missing phone -->
+    <Address NearestAirport="Sky Harbor">
+      <Number>123</Number>
+      <Street>Main St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85001</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Hotel 3 – Unclosed <Address> -->
   <Hotel>
     <Name>Hyatt</Name>
-    <!-- ✅ Error 3: Missing <Phone> element -->
+    <Phone>480-777-2345</Phone>
     <Address>
       <Number>45</Number>
       <Street>1st Ave</Street>
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85260</Zip>
-    </Address>
+    <!-- Missing </Address> -->
   </Hotel>
 
-  <Hotel Rating="3.5">
+  <!-- Hotel 4 – Duplicate <Name> -->
+  <Hotel Rating="4.7">
     <Name>Hilton</Name>
-    <Phone>602-555-1111</Phone>
-    <Address NearstAirport="Sky Harbor">
+    <Name>DoubleName</Name>
+    <Phone>602-100-2222</Phone>
+    <Phone>602-100-3333</Phone>
+    <Address NearestAirport="Mesa Gateway">
       <Number>89</Number>
       <Street>Greenway</Street>
       <City>Glendale</City>
       <State>AZ</State>
-      <!-- ✅ Error 4: Missing closing </Address> tag -->
-  </Hotel>
-
-  <Hotel Rating="3.8">
-    <!-- ✅ Error 5: Two <Name> elements -->
-    <Name>Marriott</Name>
-    <Name>Duplicate Name</Name>
-    <Phone>602-555-1234</Phone>
-    <Address>
-      <Number>123</Number>
-      <Street>Main St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85001</Zip>
+      <Zip>85301</Zip>
     </Address>
   </Hotel>
 
