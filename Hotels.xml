@@ -5,7 +5,7 @@
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
@@ -17,7 +17,7 @@
     <Name>Marriott</Name>
     <Phone>602-123-4567</Phone>
     <Phone>800-123-9999</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>555</Number>
       <Street>Mill Ave</Street>
       <City>Tempe</City>
@@ -28,7 +28,7 @@
   <Hotel>
     <Name>Holiday Inn</Name>
     <Phone>480-111-2222</Phone>
-    <Address NearestAirport="Phoenix Mesa Gateway">
+    <Address NearstAirport="Phoenix Mesa Gateway">
       <Number>420</Number>
       <Street>Apache Blvd</Street>
       <City>Mesa</City>
@@ -40,7 +40,7 @@
     <Name>Hilton Garden</Name>
     <Phone>602-555-1212</Phone>
     <Phone>866-555-1212</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>777</Number>
       <Street>University Dr</Street>
       <City>Tempe</City>
@@ -51,7 +51,7 @@
   <Hotel Rating="3.5">
     <Name>Hyatt Place</Name>
     <Phone>623-111-9999</Phone>
-    <Address NearestAirport="Scottsdale Airport">
+    <Address NearstAirport="Scottsdale Airport">
       <Number>321</Number>
       <Street>Scottsdale Rd</Street>
       <City>Scottsdale</City>
@@ -63,7 +63,7 @@
     <Name>Comfort Inn</Name>
     <Phone>480-222-3333</Phone>
     <Phone>877-333-4444</Phone>
-    <Address NearestAirport="Phoenix Deer Valley">
+    <Address NearstAirport="Phoenix Deer Valley">
       <Number>999</Number>
       <Street>Bell Rd</Street>
       <City>Phoenix</City>
@@ -74,7 +74,7 @@
   <Hotel Rating="4.1">
     <Name>Radisson</Name>
     <Phone>602-888-7777</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>640</Number>
       <Street>Van Buren St</Street>
       <City>Phoenix</City>
@@ -86,7 +86,7 @@
     <Name>Best Western</Name>
     <Phone>602-222-8888</Phone>
     <Phone>866-999-0000</Phone>
-    <Address NearestAirport="Phoenix Mesa Gateway">
+    <Address NearstAirport="Phoenix Mesa Gateway">
       <Number>410</Number>
       <Street>Country Club Dr</Street>
       <City>Mesa</City>
@@ -97,7 +97,7 @@
   <Hotel>
     <Name>Motel 6</Name>
     <Phone>480-000-4444</Phone>
-    <Address NearestAirport="Falcon Field">
+    <Address NearstAirport="Falcon Field">
       <Number>120</Number>
       <Street>Broadway Rd</Street>
       <City>Mesa</City>
@@ -109,7 +109,7 @@
     <Name>La Quinta</Name>
     <Phone>602-333-7890</Phone>
     <Phone>800-888-1212</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>150</Number>
       <Street>Thomas Rd</Street>
       <City>Phoenix</City>
