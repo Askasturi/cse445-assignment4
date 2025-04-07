@@ -6,7 +6,7 @@
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
@@ -18,7 +18,7 @@
   <Hotel Rating="3.8">
     <Name>Marriott</Name>
     <Phone>602-555-1234</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>123</Number>
       <Street>Main St</Street>
       <City>Phoenix</City>
@@ -43,7 +43,7 @@
     <Name>Hilton</Name>
     <Phone>602-100-2222</Phone>
     <Phone>602-100-3333</Phone>
-    <Address NearestAirport="Mesa Gateway">
+    <Address NearstAirport="Mesa Gateway">
       <Number>89</Number>
       <Street>Greenway</Street>
       <City>Glendale</City>
@@ -67,7 +67,7 @@
   <Hotel Rating="3.5">
     <Name>DoubleTree</Name>
     <Phone>623-888-2222</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>33</Number>
       <Street>Broadway</Street>
       <City>Mesa</City>
@@ -91,7 +91,7 @@
   <Hotel Rating="4.0">
     <Name>Comfort Suites</Name>
     <Phone>602-765-4321</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>77</Number>
       <Street>6th St</Street>
       <City>Phoenix</City>
@@ -116,7 +116,7 @@
     <Name>Sonesta Select</Name>
     <Phone>602-999-8888</Phone>
     <Phone>602-999-7777</Phone>
-    <Address NearestAirport="Phoenix-Mesa Gateway">
+    <Address NearstAirport="Phoenix-Mesa Gateway">
       <Number>200</Number>
       <Street>W Baseline Rd</Street>
       <City>Mesa</City>
