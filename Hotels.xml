@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
-
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearstAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
@@ -14,115 +13,108 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
   <Hotel Rating="3.9">
     <Name>Marriott</Name>
-    <Phone>602-555-1234</Phone>
-    <Address NearstAirport="Sky Harbor">
-      <Number>123</Number>
-      <Street>Main St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85001</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel  Rating="3.5">>
-    <Name>Hyatt Regency</Name>
-    <Phone>480-777-2345</Phone>
-    <Address>
-      <Number>45</Number>
-      <Street>1st Ave</Street>
-      <City>Scottsdale</City>
-      <State>AZ</State>
-      <Zip>85260</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.5">
-    <Name>Hilton Garden Inn</Name>
-    <Phone>602-100-2222</Phone>
-    <Phone>602-100-3333</Phone>
-    <Address NearstAirport="Mesa Gateway">
-      <Number>89</Number>
-      <Street>Greenway Rd</Street>
-      <City>Glendale</City>
-      <State>AZ</State>
-      <Zip>85301</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel  Rating="3.5">>
-    <Name>Renaissance</Name>
-    <Phone>602-101-9999</Phone>
-    <Address>
-      <Number>90</Number>
-      <Street>5th Ave</Street>
+    <Phone>602-123-4567</Phone>
+    <Phone>800-123-9999</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>555</Number>
+      <Street>Mill Ave</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
-  <Hotel Rating="3.5">
-    <Name>DoubleTree</Name>
-    <Phone>623-888-2222</Phone>
-    <Address NearstAirport="Sky Harbor">
-      <Number>33</Number>
-      <Street>Broadway Rd</Street>
+  <Hotel>
+    <Name>Holiday Inn</Name>
+    <Phone>480-111-2222</Phone>
+    <Address NearestAirport="Phoenix Mesa Gateway">
+      <Number>420</Number>
+      <Street>Apache Blvd</Street>
       <City>Mesa</City>
       <State>AZ</State>
       <Zip>85201</Zip>
     </Address>
   </Hotel>
-
-  <Hotel  Rating="3.5">>
-    <Name>Holiday Inn Express</Name>
-    <Phone>480-444-1122</Phone>
-    <Address>
-      <Number>88</Number>
+  <Hotel Rating="4.5">
+    <Name>Hilton Garden</Name>
+    <Phone>602-555-1212</Phone>
+    <Phone>866-555-1212</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>777</Number>
       <Street>University Dr</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.0">
-    <Name>Comfort Suites</Name>
-    <Phone>602-765-4321</Phone>
-    <Address NearstAirport="Sky Harbor">
-      <Number>77</Number>
-      <Street>6th St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85002</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel  Rating="3.5">>
-    <Name>Motel 6</Name>
-    <Phone>602-333-4444</Phone>
-    <Address>
-      <Number>101</Number>
-      <Street>7th Ave</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85282</Zip>
     </Address>
   </Hotel>
-
-  <Hotel Rating="4.6">
-    <Name>Sonesta Select</Name>
-    <Phone>602-999-8888</Phone>
-    <Phone>602-999-7777</Phone>
-    <Address NearstAirport="Phoenix-Mesa Gateway">
-      <Number>200</Number>
-      <Street>W Baseline Rd</Street>
+  <Hotel Rating="3.5">
+    <Name>Hyatt Place</Name>
+    <Phone>623-111-9999</Phone>
+    <Address NearestAirport="Scottsdale Airport">
+      <Number>321</Number>
+      <Street>Scottsdale Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85260</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Comfort Inn</Name>
+    <Phone>480-222-3333</Phone>
+    <Phone>877-333-4444</Phone>
+    <Address NearestAirport="Phoenix Deer Valley">
+      <Number>999</Number>
+      <Street>Bell Rd</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85032</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.1">
+    <Name>Radisson</Name>
+    <Phone>602-888-7777</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>640</Number>
+      <Street>Van Buren St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="3.8">
+    <Name>Best Western</Name>
+    <Phone>602-222-8888</Phone>
+    <Phone>866-999-0000</Phone>
+    <Address NearestAirport="Phoenix Mesa Gateway">
+      <Number>410</Number>
+      <Street>Country Club Dr</Street>
       <City>Mesa</City>
       <State>AZ</State>
       <Zip>85210</Zip>
     </Address>
   </Hotel>
-
+  <Hotel>
+    <Name>Motel 6</Name>
+    <Phone>480-000-4444</Phone>
+    <Address NearestAirport="Falcon Field">
+      <Number>120</Number>
+      <Street>Broadway Rd</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85206</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.0">
+    <Name>La Quinta</Name>
+    <Phone>602-333-7890</Phone>
+    <Phone>800-888-1212</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>150</Number>
+      <Street>Thomas Rd</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85014</Zip>
+    </Address>
+  </Hotel>
 </Hotels>
