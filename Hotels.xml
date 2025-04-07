@@ -27,7 +27,7 @@
     </Address>
   </Hotel>
 
-  <Hotel>
+  <Hotel  Rating="3.5">>
     <Name>Hyatt Regency</Name>
     <Phone>480-777-2345</Phone>
     <Address>
@@ -52,7 +52,7 @@
     </Address>
   </Hotel>
 
-  <Hotel>
+  <Hotel  Rating="3.5">>
     <Name>Renaissance</Name>
     <Phone>602-101-9999</Phone>
     <Address>
@@ -76,7 +76,7 @@
     </Address>
   </Hotel>
 
-  <Hotel>
+  <Hotel  Rating="3.5">>
     <Name>Holiday Inn Express</Name>
     <Phone>480-444-1122</Phone>
     <Address>
@@ -100,7 +100,7 @@
     </Address>
   </Hotel>
 
-  <Hotel>
+  <Hotel  Rating="3.5">>
     <Name>Motel 6</Name>
     <Phone>602-333-4444</Phone>
     <Address>
