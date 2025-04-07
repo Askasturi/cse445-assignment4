@@ -52,7 +52,7 @@
     </Address>
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating="3.8">
     <Name>Renaissance</Name>
     <Phone>602-101-9999</Phone>
     <Address NearstAirport="Sky Harbor">
@@ -100,7 +100,7 @@
     </Address>
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating="3.8">
     <Name>Motel Six</Name>
     <Phone>602-333-4444</Phone>
     <Address NearstAirport="Sky Harbor">
