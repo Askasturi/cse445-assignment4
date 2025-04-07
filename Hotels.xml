@@ -27,12 +27,12 @@
     </Address>
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating="3.8">
     <Name>Hyatt</Name>
     <Phone>480-777-2345</Phone>
     <Address NearstAirport="Sky Harbor">
       <Number>45</Number>
-      <Street>1st Ave</Street>
+      <Street>First Ave</Street>
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85260</Zip>
@@ -76,7 +76,7 @@
     </Address>
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating="3.8">
     <Name>Holiday Inn</Name>
     <Phone>480-444-1122</Phone>
     <Address NearstAirport="Sky Harbor">
@@ -101,7 +101,7 @@
   </Hotel>
 
   <Hotel>
-    <Name>Motel 6</Name>
+    <Name>Motel Six</Name>
     <Phone>602-333-4444</Phone>
     <Address NearstAirport="Sky Harbor">
       <Number>101</Number>
