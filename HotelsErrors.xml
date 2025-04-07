@@ -2,7 +2,14 @@
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
-  <!-- Hotel 1 – Missing <Zip> -->
+ <!-- HotelsErrors.xml errors: -->
+<!-- (1) The root element name is 'Hotel' instead of 'Hotels'. -->
+<!-- (2) A required attribute 'Rating' is missing in one of the Hotel elements. -->
+<!-- (3) A Phone element is missing from one of the Hotel entries. -->
+<!-- (4) One Address element is missing its closing tag. -->
+<!-- (5) One Hotel element includes two <Name> elements. -->
+
+  <!-- Hotel 1 missing ZIP -->
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -16,10 +23,10 @@
     </Address>
   </Hotel>
 
-  <!-- Hotel 2 – Missing <Phone> -->
+  <!-- Hotel 2 missing phone -->
   <Hotel Rating="3.8">
     <Name>Marriott</Name>
-    <!-- Missing phone -->
+    <!-- Missing phone here -->
     <Address NearestAirport="Sky Harbor">
       <Number>123</Number>
       <Street>Main St</Street>
@@ -29,7 +36,7 @@
     </Address>
   </Hotel>
 
-  <!-- Hotel 3 – Unclosed <Address> -->
+  <!-- Hotel 3 missinf Unclosed <Address> -->
   <Hotel>
     <Name>Hyatt</Name>
     <Phone>480-777-2345</Phone>
@@ -39,13 +46,13 @@
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85260</Zip>
-    <!-- Missing </Address> -->
+    <!-- Missing </Address> here-->
   </Hotel>
 
-  <!-- Hotel 4 – Duplicate <Name> -->
+  <!-- Hotel 4 has Duplicate <Name> -->
   <Hotel Rating="4.7">
     <Name>Hilton</Name>
-    <Name>DoubleName</Name>
+    <Name>DoubleName</Name> <!-- duplicate here-->
     <Phone>602-100-2222</Phone>
     <Phone>602-100-3333</Phone>
     <Address NearestAirport="Mesa Gateway">
