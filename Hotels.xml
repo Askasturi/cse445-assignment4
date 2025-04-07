@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
-        
+<!-- format -->
+  <!-- optional: Rating -->
+  <!-- Hotel name -->
+  <!-- One or more phone numbers -->
+  <!-- Required: Address element; NearestAirport -->
+  <!-- Street # -->
+  <!-- Street name -->
+  <!-- City -->
+  <!-- State -->
+  <!-- ZIP  -->
  <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
